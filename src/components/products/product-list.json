@@ -1,0 +1,49 @@
+[
+  {
+    "image": "/images/products/c_series.jpeg",
+    "name": "C Series",
+    "description": "Designed For Churches",
+    "type": "Indoor & Outdoor LED",
+    "pixel_pitch": "P2.6/P2.9/3.9/4.8mm",
+    "features": "Front and Back Service"
+  },
+  {
+    "image": "/images/products/kre_series.jpeg",
+    "name": "KRE Series",
+    "description": "Designed For Events & Rental",
+    "type": "Indoor & Outdoor LED",
+    "pixel_pitch": "P2.6/P2.9/3.9/4.8mm",
+    "features": "Front and Back Service"
+  },
+  {
+    "image": "/images/products/kfi_series.jpeg",
+    "name": "KFI Series",
+    "description": "Designed For Churches, Hotel Lobbies & Conference Rooms",
+    "type": "Indoor & Outdoor LED",
+    "pixel_pitch": "P2.6/P2.9/3.9/4.8mm",
+    "features": "Front Service",
+    "cabinet_size": "500X500mm/1000X500mm"
+  },
+  {
+    "image": "/images/products/kb_series.jpeg",
+    "name": "KB Series",
+    "description": "Designed For Commercial Advertising",
+    "pixel_pitch": "3.9/4.8/5.9/6.6/8/10mm",
+    "cabinet_size": "960X960mm"
+  },
+  {
+    "image": "/images/products/indoor_led.jpeg",
+    "name": "Smart Control Indoor LED",
+    "description": "Designed For Events, Rental & Expo",
+    "pixel_pitch": "1920x1080p",
+    "cabinet_size": "75 Inch/640X1920mm"
+  },
+  {
+    "image": "/images/products/line_array_speakers.jpeg",
+    "name": "Professional Line Array Speakers",
+    "description": "Designed For Churches, Rental & Events",
+    "pixel_pitch": "300/500 Watts",
+    "cabinet_size": "75 Inch/640X1920mm",
+    "extras": "Comes with Mixer, Sound Processor & Amplifiers"
+  }
+]
