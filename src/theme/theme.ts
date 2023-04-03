@@ -20,6 +20,9 @@ export const theme = createTheme({
   components: {
     MuiButton: {
       styleOverrides: {
+        root: {
+          borderRadius: 50,
+        },
         contained: {
           "&:hover": {
             backgroundColor: "#ffbb3b",
@@ -42,6 +45,13 @@ export const theme = createTheme({
         },
         textSizeLarge: {
           padding: "12px 16px",
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: 3,
         },
       },
     },
@@ -144,7 +154,7 @@ export const theme = createTheme({
       contrastText: "#000000",
     },
     info: {
-      main: "#2196F3",
+      main: "#C4C4C4",
       light: "#64B6F7",
       dark: "#0B79D0",
       contrastText: "#FFFFFF",
@@ -163,12 +173,12 @@ export const theme = createTheme({
     },
     text: {
       primary: "#193042",
-      secondary: "#65748B",
+      secondary: "C4C4C4",
       disabled: "rgba(55, 65, 81, 0.48)",
     },
   },
   shape: {
-    borderRadius: 50,
+    borderRadius: 3,
   },
   shadows: [
     "none",
@@ -257,7 +267,7 @@ export const theme = createTheme({
     },
     h5: {
       fontWeight: 600,
-      fontSize: "1.25rem",
+      fontSize: "1.4rem",
       lineHeight: 1.375,
     },
     h6: {
