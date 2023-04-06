@@ -15,8 +15,16 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const FooterSection = () => {
   return (
-    <Box sx={{ bgcolor: "#202020", py: 3 }}>
-      <Grid container sx={{ maxWidth: 1170, margin: "0 auto" }}>
+    <Box
+      sx={{
+        bgcolor: "#202020",
+        py: 3,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
+      <Grid container sx={{ maxWidth: 1170, p: 2 }}>
         <Grid item xs={12} sm={4}>
           <Typography textTransform='uppercase' color='info.main' variant='h5'>
             Contact Us
@@ -27,7 +35,7 @@ const FooterSection = () => {
           <Typography variant='h6' color='info.main'>
             Phone Number 2
           </Typography>
-          <Stack direction='row' spacing={2} mt={2}>
+          <Stack direction='row' spacing={2} my={2}>
             <Avatar sx={{ bgcolor: "secondary.main" }}>
               <FacebookIcon />
             </Avatar>
@@ -49,12 +57,10 @@ const FooterSection = () => {
           </Card>
         </Grid>
       </Grid>
-      <Box mt={2}>
-        <Divider
-          sx={{ bgcolor: "#555658", maxWidth: 1170, margin: "0 auto" }}
-        />
+      <Box width='100%' maxWidth={1170}>
+        <Divider sx={{ bgcolor: "#555658" }} />
         <Typography align='center' color='#555658' mt={1}>
-          &copy; 2023. Excel LED Kenya. All rights reserved
+          &copy; 2023. Kenya LED Screen Company. All rights reserved
         </Typography>
         <Link
           href='https://opencubekenya.com'

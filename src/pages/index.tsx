@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Excel LED Kenya</title>
+        <title>Kenya LED Screen Company</title>
         <meta
           name='description'
           content='We handle sales, assembly, and installation of LED screens and superiror sound systems in kenya'

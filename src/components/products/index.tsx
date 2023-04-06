@@ -11,11 +11,20 @@ import products_list from "./product-list.json";
 
 const OurProducts = () => {
   return (
-    <Box sx={{ backgroundColor: "#151414", py: 3 }}>
+    <Box
+      sx={{
+        backgroundColor: "#151414",
+        py: 3,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <Typography variant='h4' color='info.main' align='center'>
         Our Products
       </Typography>
-      <Grid container spacing={2} sx={{ maxWidth: 1170, margin: "20px auto" }}>
+      <Grid container spacing={2} sx={{ p: 2, maxWidth: 1170 }}>
         {products_list.map((product) => (
           <Grid key={product.name} item xs={12} sm={4}>
             <Card sx={{ height: "100%", bgcolor: "#EEFFFC" }}>

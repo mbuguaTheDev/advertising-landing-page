@@ -1,23 +1,28 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import hero_img from "../../public/images/hero_bg.jpg";
 import Calculator from "./calculator";
+import SiteNavbar from "./navbar";
 
 const HeroSection = () => {
   return (
     <Box
       sx={{
-        py: 5,
+        pt: 15,
+        pb: 8,
+        display: "flex",
+        justifyContent: "center",
         background: `url(${hero_img.src}) no-repeat center`,
         backgroundSize: "cover",
       }}
     >
+      <SiteNavbar />
       <Grid
         container
         justifyContent='space-between'
         spacing={2}
         sx={{
+          p: 2,
           maxWidth: 1170,
-          margin: "0 auto",
         }}
       >
         <Grid item xs={12} sm={6}>
