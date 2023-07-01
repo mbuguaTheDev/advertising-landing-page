@@ -38,7 +38,7 @@ const HeroSection = () => {
           <Button variant='contained'>Learn More</Button>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Calculator />
+          {/* <Calculator /> */}
         </Grid>
       </Grid>
     </Box>

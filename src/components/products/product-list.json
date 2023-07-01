@@ -29,6 +29,7 @@
     "name": "KB Series",
     "description": "Designed For Commercial Advertising",
     "pixel_pitch": "3.9/4.8/5.9/6.6/8/10mm",
+    "features": "Front & back service, outdoor waterproof",
     "cabinet_size": "960X960mm"
   },
   {
@@ -36,6 +37,7 @@
     "name": "Smart Control Indoor LED",
     "description": "Designed For Events, Rental & Expo",
     "pixel_pitch": "1920x1080p",
+    "features": "Touch screen/WiFi connectivity/Inbuilt sound",
     "cabinet_size": "75 Inch/640X1920mm"
   },
   {
@@ -43,6 +45,7 @@
     "name": "Professional Line Array Speakers",
     "description": "Designed For Churches, Rental & Events",
     "pixel_pitch": "300/500 Watts",
+    "features": "Waterproof, hanging bar, modularity",
     "cabinet_size": "75 Inch/640X1920mm",
     "extras": "Comes with Mixer, Sound Processor & Amplifiers"
   }

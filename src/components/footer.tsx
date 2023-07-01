@@ -2,6 +2,7 @@ import {
   Avatar,
   Box,
   Card,
+  CardHeader,
   CardContent,
   Divider,
   Grid,
@@ -12,6 +13,7 @@ import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import ContactForm from "./contact-form";
 
 const FooterSection = () => {
   return (
@@ -24,17 +26,41 @@ const FooterSection = () => {
         alignItems: "center",
       }}
     >
+      <Typography color='info.main' variant='h4' align='center'>
+        Contact Us
+      </Typography>
       <Grid container sx={{ maxWidth: 1170, p: 2 }}>
         <Grid item xs={12} sm={4}>
           <Typography textTransform='uppercase' color='info.main' variant='h5'>
-            Contact Us
+            Call:
           </Typography>
-          <Typography variant='h6' color='info.main'>
-            Phone Number 1
+          <Link href='tel:+254781073727' style={{ textDecoration: "none" }}>
+            <Typography variant='h6' color='info.main'>
+              +254 781 07 37 27
+            </Typography>
+          </Link>
+          <Link href='tel:+254720629621' style={{ textDecoration: "none" }}>
+            <Typography variant='h6' color='info.main'>
+              +254 720 629 621
+            </Typography>
+          </Link>
+          <Typography
+            textTransform='uppercase'
+            color='info.main'
+            variant='h5'
+            mt={2}
+          >
+            Email:
           </Typography>
-          <Typography variant='h6' color='info.main'>
-            Phone Number 2
-          </Typography>
+          <Link
+            href='mailto:sales@kenyaledscreen.com'
+            style={{ textDecoration: "none" }}
+          >
+            <Typography variant='h6' color='info.main'>
+              sales@kenyaledscreen.com
+            </Typography>
+          </Link>
+
           <Stack direction='row' spacing={2} my={2}>
             <Avatar sx={{ bgcolor: "secondary.main" }}>
               <FacebookIcon />
@@ -48,11 +74,10 @@ const FooterSection = () => {
           </Stack>
         </Grid>
         <Grid item xs={12} sm={8}>
-          <Card sx={{ bgcolor: "#555658" }}>
+          <Card>
+            <CardHeader title='Quick Inquiry Form' />
             <CardContent>
-              <Typography variant='h4' color='info.main'>
-                Contact Form / Anything
-              </Typography>
+              <ContactForm />
             </CardContent>
           </Card>
         </Grid>
@@ -60,7 +85,7 @@ const FooterSection = () => {
       <Box width='100%' maxWidth={1170}>
         <Divider sx={{ bgcolor: "#555658" }} />
         <Typography align='center' color='#555658' mt={1}>
-          &copy; 2023. Kenya LED Screen Company. All rights reserved
+          &copy; 2023. Kenya LED Screens Company. All rights reserved
         </Typography>
         <Link
           href='https://opencubekenya.com'
