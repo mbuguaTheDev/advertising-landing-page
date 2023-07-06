@@ -116,7 +116,14 @@ export const theme = createTheme({
     MuiOutlinedInput: {
       styleOverrides: {
         notchedOutline: {
-          borderColor: "#E6E8F0",
+          borderColor: "#b5b7bd",
+        },
+      },
+    },
+    MuiFormLabel: {
+      styleOverrides: {
+        root: {
+          marginTop: 10,
         },
       },
     },

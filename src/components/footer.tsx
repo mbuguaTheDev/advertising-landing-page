@@ -1,19 +1,8 @@
-import {
-  Avatar,
-  Box,
-  Card,
-  CardHeader,
-  CardContent,
-  Divider,
-  Grid,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Avatar, Box, Divider, Grid, Stack, Typography } from "@mui/material";
 import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import ContactForm from "./contact-form";
 
 const FooterSection = () => {
   return (
@@ -72,14 +61,6 @@ const FooterSection = () => {
               <InstagramIcon />
             </Avatar>
           </Stack>
-        </Grid>
-        <Grid item xs={12} sm={8}>
-          <Card>
-            <CardHeader title='Quick Inquiry Form' />
-            <CardContent>
-              <ContactForm />
-            </CardContent>
-          </Card>
         </Grid>
       </Grid>
       <Box width='100%' maxWidth={1170}>

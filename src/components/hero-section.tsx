@@ -1,6 +1,6 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import hero_img from "../../public/images/hero_bg.jpg";
-import Calculator from "./calculator";
+import InquiryForm from "./inquiry_form";
 import SiteNavbar from "./navbar";
 
 const HeroSection = () => {
@@ -37,8 +37,13 @@ const HeroSection = () => {
           </Typography>
           <Button variant='contained'>Learn More</Button>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          {/* <Calculator /> */}
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          sx={{ display: "flex", justifyContent: "flex-end" }}
+        >
+          <InquiryForm />
         </Grid>
       </Grid>
     </Box>
