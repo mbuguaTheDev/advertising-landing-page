@@ -15,7 +15,24 @@ export default function Home() {
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
+        {/* Google Analytics */}
+        <script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-9S1NYYTW2F'
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9S1NYYTW2F');
+          `,
+          }}
+        />
+        {/* End Google Analytics */}
       </Head>
+
       <main>
         <HeroSection />
         <OurProducts />
